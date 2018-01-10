@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgstyle"
+    android:layout_height="match_parent"
+    tools:context="com.example.himanshu.loginapp.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/bannerstyle"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+android:layout_marginTop="39dp"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:text="loginppp"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+           android:orientation="vertical"
+            android:padding="10dp">
+  <android.support.design.widget.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/etEmail"
+          android:drawableLeft="@android:drawable/ic_dialog_email"
+
+
+          >
+
+
+      </EditText>
+
+  </android.support.design.widget.TextInputLayout>
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etpassword"
+                    android:drawableLeft="@android:drawable/ic_lock_lock"
+
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <Button
+                android:background="@drawable/buttonstyle"
+                android:elevation="5dp"
+                android:layout_marginTop="5dp"
+
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login" />
+
+            <Button
+                android:elevation="5dp"
+                android:layout_marginTop="5dp"
+android:background="@drawable/buttonstyle"
+                android:id="@+id/btnCreate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:elevation="5dp"
+                android:layout_marginTop="5dp"
+android:background="@drawable/buttonstyle"
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tvForgot"
+        android:textSize="15dp"
+        android:fontFamily="cursive"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="TextView" />
+
+
+
+<ImageView
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:elevation="4dp"
+    android:id="@+id/user_profile_photo"
+    android:src="@drawable/abc"
+    android:layout_marginTop="16dp"
+    android:layout_centerVertical="true"
+
+
+
+    />
+
+</RelativeLayout>
